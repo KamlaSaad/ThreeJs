@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Table 3D Model</title>
+        <script src="https://unpkg.com/three@0.125.2/build/three.js"></script>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="checks">
+            <input type="color" id="color" value="#330066">
+        </div>
+        <div id="files">
+            <button class="file">
+                <span>Change Material</span>
+                <input type="file" id="img" accept=".jpg,.png,.jif" >
+            </button>
+            <button class="file">
+                <span>Choose File</span>
+                <input type="file" id="file" accept=".glb" >
+            </button>
+            <div id="output" >No file choosen</div>
+        </div>
+        <div id="card"></div>
+        <script type="module" src="./js.js"></script>
+        
+    </body>
+</html>
