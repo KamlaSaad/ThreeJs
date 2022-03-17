@@ -12,13 +12,13 @@ body {
 div{position: relative;
     margin: 0;
     width: 100%;
-    padding: 12px 18px ;
+    padding: 16px 18px ;
     background: rgb(247, 247, 247);
     border-bottom: 1.5px solid #ddd;
 }
 #color{
     position: absolute;
-    top: 6px;
+    top: 8px;
     right: 20px;
     height: 40px;
     text-align: right;}
